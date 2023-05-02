@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN</title>
+
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgb(249, 209, 209, 0.7);
+            text-align: justify;
+            color: white;
+            background-image: url("src/imgs/sakura.png");
+            background-size: 100px;
+        }
+
+        img {
+            width: 250px;
+            height: 150px;
+        }
+
+        .cards {
+            width: 290px;
+            height: 290px;
+            margin-top: 20px;
+            text-align: center;
+            background-color: rgb(0, 0, 0, 0.7);
+            border-radius: 20px;
+            padding: 20px;
+            display: inline-block;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        .titulo1 {
+            font-weight: bold;
+            font-size: 20px;
+            color: white;
+        }
+
+        .intro {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .introcard {
+            background-color: rgb(0, 0, 0, 0.7);
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+            opacity: 0.7;
+            border-radius: 30px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="src/pages/ViagemAracaju.html">Aracaju</a></li>
+        <li><a href="src/pages/ViagemJoaoPessoa.html">Joao Pessoa</a></li>
+        <li><a href="src/pages/ViagemGramado.html">Gramado</a></li>
+        <li><a href="src/pages/ViagemPanama.html">Panama</a></li>
+    </ul>
+
+    <div class="introcard">
+
+        <p class="intro">
+            <b>
+                Hello! My name is Henrique, often called either "Rique" or "Henri" by people that have some intimacy with me.
+                I'm Davi, and in my case, people will often call me "Dave" when they wanna refer to me by a nickname.
+                Here are some places I (Dave) have been to and have enjoyed myself there:
+            </b>
+        </p>
+    </div>
+
+    <div style="width: 100%;">
+        <a href="src/pages/ViagemAracaju.html">
+
+            <div class="cards">
+    
+                <p class="titulo1"> VIAGEM DO DAVE PARA ARACAJU</p>
+                <img src="src/imgs/aracaju.jpg">
+    
+            </div>
+        </a>
+    
+        <a href="src/pages/ViagemJoaoPessoa.html">
+    
+            <div class="cards">
+    
+                <p class="titulo1"> VIAGEM DO DAVE PARA JOÃO PESSOA</p>
+                <img src="src/imgs/jampa.jpg">
+    
+            </div>
+        </a>
+    
+        <a href="src/pages/ViagemGramado.html">
+    
+            <div class="cards">
+    
+                <p class="titulo1"> PARQUE TEMÁTICO SNOWLAND - GRAMADO </p>
+                <img src="src/imgs/yeti.jpg">
+    
+            </div>
+        </a>
+
+        <a href="src/pages/ViagemGramado.html">
+    
+            <div class="cards">
+    
+                <p class="titulo1"> CANAL DO PANAMA - PANAMA </p>
+                <img src="src/imgs/panama2.jpeg">
+    
+            </div>
+        </a>
+    </div>
+    
+</body>
+
+</html>
